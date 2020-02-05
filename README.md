@@ -1,2 +1,2 @@
 # Preview
-![image] (https://i.imgur.com/baKu8AF.png)
+![Image] (https://i.imgur.com/baKu8AF.png)
