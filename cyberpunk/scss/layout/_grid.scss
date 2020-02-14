@@ -1,0 +1,18 @@
+.row {
+    color: grey;
+    width: 70%;
+    margin: 0 auto;
+
+    [class^='col-'] {
+        float: left;
+
+        &:not(:last-child) {
+            margin-right: $grid-margin-right;
+        }
+    }
+
+    .col-1-of-2 {
+        width: calc((100% - #{$grid-margin-right}) / 2 );
+        // border: red solid;
+    }
+}

@@ -1,0 +1,25 @@
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+html{
+    min-height: 100%;
+}
+
+html {
+    font-size: 10px;
+    background-color: $color-dark-primary;
+    // border: red solid;
+}
+
+body {
+    padding: 0;
+    margin: 2rem;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+    background-color: $color-dark-secondary;
+    min-height: 100%;
+    // border: red solid;
+}

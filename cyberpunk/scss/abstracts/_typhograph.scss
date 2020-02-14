@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Kanit&display=swap');
+
+.heading-secondary {
+    color: gray;
+    text-align: center;
+    font-size: 5rem;
+    text-shadow: 0 .5rem 1rem rgba($color: #000000, $alpha: .5);
+}
+
+.heading-tertiary {
+    font-size: 2rem;
+    margin: .5rem 0;
+    color: $color-grey-light-2;
+}
+
+.paragraph {
+    font-size: 1.5rem;
+}

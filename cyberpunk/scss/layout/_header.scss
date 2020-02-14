@@ -1,0 +1,47 @@
+.header {
+    height: 95vh;
+    /* border: solid red; */
+    background-image:
+        linear-gradient(to right bottom, 
+        rgba(255, 71, 255, 0.493), 
+        rgba(0, 0, 218, 0.562)), 
+        url('/web-portfolio/cyberpunk/images/Nightcity2077.png');
+    clip-path: polygon(0 0, 100% 0, 100% 700px, 0 100%);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+
+    &__text-box {
+        /* border: solid red; */
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -40%);
+        color: white;
+        text-align: center;
+
+        .heading-primary {
+            /* border: solid red; */
+            font-weight: 400;
+            margin-bottom: 4rem;
+            backface-visibility: hidden;
+
+            &--main {
+                /* border: solid red; */
+                display: block;
+                font-size: 12rem;
+                letter-spacing: 2rem;
+                line-height: 10rem;
+                animation: moveInRight 1s ease-out;
+            }
+
+            &--sub {
+                display: block;
+                font-size: 3rem;
+                /* border: solid red; */
+                margin-top: 1rem;
+                animation: moveInLeft 1s ease-out;
+            }
+        }
+    }
+}
