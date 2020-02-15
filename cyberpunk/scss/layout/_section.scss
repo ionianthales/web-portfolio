@@ -1,3 +1,25 @@
 .section-about {
     height: 70vh;
 }
+
+.section-feature {
+    // border: solid red;
+    height: 80vh;
+    background-image: url(/images/feature_bg.jpg);
+    background-size: cover;
+    background-position-y: -6rem;
+    background-repeat: no-repeat;
+    padding: 2rem 0;
+
+    transform: skewY(-6deg);
+
+    & > * {
+        transform: skewY(6deg);
+    }
+}
+
+.section-tour {
+    height: 90vh;
+    // border: solid red;
+    margin-top: 10rem;
+}

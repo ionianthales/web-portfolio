@@ -1,11 +1,7 @@
 .header {
     height: 95vh;
     /* border: solid red; */
-    background-image:
-        linear-gradient(to right bottom, 
-        rgba(255, 71, 255, 0.493), 
-        rgba(0, 0, 218, 0.562)), 
-        url('/web-portfolio/cyberpunk/images/Nightcity2077.png');
+    background-image: linear-gradient(to right bottom, rgba(255, 71, 255, 0.493), rgba(0, 0, 218, 0.562)), url(/images/Nightcity2077.png);
     clip-path: polygon(0 0, 100% 0, 100% 700px, 0 100%);
     background-size: cover;
     background-position: top;
