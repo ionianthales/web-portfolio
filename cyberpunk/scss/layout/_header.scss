@@ -7,6 +7,9 @@
     background-position: top;
     position: relative;
 
+    &__container {
+        background-color: $color-dark-secondary;
+    }
     &__text-box {
         /* border: solid red; */
         position: absolute;

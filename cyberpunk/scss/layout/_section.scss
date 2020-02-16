@@ -1,5 +1,9 @@
 .section-about {
+    // margin-top: -30rem;
+    padding-top: .1px;
     height: 70vh;
+    background-color: $color-dark-secondary;
+    // border: 1px red solid;
 }
 
 .section-feature {
@@ -10,16 +14,32 @@
     background-position-y: -6rem;
     background-repeat: no-repeat;
     padding: 2rem 0;
+    // margin-top: 30rem;
 
     transform: skewY(-6deg);
 
     & > * {
         transform: skewY(6deg);
     }
+
+    &__container {
+        background-color: $color-dark-secondary;
+    }
+
 }
 
 .section-tour {
     height: 90vh;
     // border: solid red;
-    margin-top: 10rem;
+    // margin-top: 10rem;
+    padding-top: .1px;
+    background-color: $color-dark-secondary;
+}
+
+.section-stories {
+    padding: 15rem 0;
+    padding-top: .1px;
+    background-color: $color-dark-secondary;
+    position: relative;
+    z-index: 1;
 }

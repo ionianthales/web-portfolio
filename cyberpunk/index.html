@@ -8,17 +8,20 @@
     <link rel="stylesheet" href="scss/main.css">
 </head>
 <body>
-    <div class="header">
-        <div class="header__text-box">
-            <h1 class="heading-primary">
-                <span class="heading-primary--main">Cyberpunk</span>
-                <span class="heading-primary--sub">experience the cyberpunk world in 2077</span>
-            </h1>
-            <a href="#" class="btn btn--white btn--animated">Discover</a>
+    <div class="header__container">
+        <div class="header">
+            <div class="header__text-box">
+                <h1 class="heading-primary">
+                    <span class="heading-primary--main">Cyberpunk</span>
+                    <span class="heading-primary--sub">experience the cyberpunk world in 2077</span>
+                </h1>
+                <a href="#" class="btn btn--white btn--animated">Discover</a>
+            </div>
         </div>
     </div>
 
-    <section class="section-about margin-bottom-big">
+
+    <section class="section-about">
         <div class="heading-secondary">
             <h1>
                 About Cyberpunk
@@ -64,66 +67,68 @@
         </div>
     </section>
 
-    <section class="section-feature">
-        <div class="heading-secondary">
-            <h1>
-                Blade Runner
-            </h1>
-        </div>
-        <div class="row">
-            <div class="col-1-of-4">
-                <div class="feature-box">
-                    <div class="feature-box__picture feature-box__picture--1">
+    <div class="section-feature__container">
+        <section class="section-feature">
+            <div class="heading-secondary">
+                <h1>
+                    Blade Runner
+                </h1>
+            </div>
+            <div class="row">
+                <div class="col-1-of-4">
+                    <div class="feature-box">
+                        <div class="feature-box__picture feature-box__picture--1">
+                        </div>
+                        <h6 class="heading-tertiary">
+                            Los Angeles 2019
+                        </h6>
+                        <p class="paragraph text-dark">
+                            Los Angeles is very dangerous and dirty city. Streets are messy and mean.
+                            Extreme air pollution is causing critical damage inside people's lung.
+                        </p>
                     </div>
-                    <h6 class="heading-tertiary">
-                        Los Angeles 2019
-                    </h6>
-                    <p class="paragraph text-dark">
-                        Los Angeles is very dangerous and dirty city. Streets are messy and mean.
-                        Extreme air pollution is causing critical damage inside people's lung.
-                    </p>
+                </div>
+                <div class="col-1-of-4">
+                    <div class="feature-box">
+                        <div class="feature-box__picture feature-box__picture--2">
+                        </div>
+                        <h6 class="heading-tertiary">
+                            Black Out 2022
+                        </h6>
+                        <p class="paragraph text-dark">
+                            Fatal EMP Explosion shut down the Los Angeles' data center.
+                            Replicants started removing their eyes that have identical numbers. 
+                        </p>
+                    </div>
+                </div>
+                <div class="col-1-of-4">
+                    <div class="feature-box text-dark">
+                        <div class="feature-box__picture feature-box__picture--3">
+                        </div>
+                        <h6 class="heading-tertiary">
+                            Nexus Dawn 2036
+                        </h6>
+                        <p class="paragraph text-dark">
+                            Dr. Wallace is trying to develop the new replicant generation.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-1-of-4">
+                    <div class="feature-box">
+                        <div class="feature-box__picture feature-box__picture--4">
+                        </div>
+                        <h6 class="heading-tertiary">
+                            Los Angeles 2049
+                        </h6>
+                        <p class="paragraph text-dark">
+                            Replicant K works in LAPD and his main mission is to arrest illegal replicants.
+                        </p>
+                    </div>
                 </div>
             </div>
-            <div class="col-1-of-4">
-                <div class="feature-box">
-                    <div class="feature-box__picture feature-box__picture--2">
-                    </div>
-                    <h6 class="heading-tertiary">
-                        Black Out 2022
-                    </h6>
-                    <p class="paragraph text-dark">
-                        Fatal EMP Explosion shut down the Los Angeles' data center.
-                        Replicants started removing their eyes that have identical numbers. 
-                    </p>
-                </div>
-            </div>
-            <div class="col-1-of-4">
-                <div class="feature-box text-dark">
-                    <div class="feature-box__picture feature-box__picture--3">
-                    </div>
-                    <h6 class="heading-tertiary">
-                        Nexus Dawn 2036
-                    </h6>
-                    <p class="paragraph text-dark">
-                        Dr. Wallace is trying to develop the new replicant generation.
-                    </p>
-                </div>
-            </div>
-            <div class="col-1-of-4">
-                <div class="feature-box">
-                    <div class="feature-box__picture feature-box__picture--4">
-                    </div>
-                    <h6 class="heading-tertiary">
-                        Los Angeles 2049
-                    </h6>
-                    <p class="paragraph text-dark">
-                        Replicant K works in LAPD and his main mission is to arrest illegal replicants.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
+        </section>
+    </div>
+ 
     <section class="section-tour">
         <div class="heading-secondary">
             <h1>OFF WORLD</h1>
@@ -177,5 +182,82 @@
             </div>
         </div>
     </section>
+
+    <div class="section-stories__container">
+        <section class="section-stories">
+            <div class="bg-video">
+                <video class="bg-video__content" autoplay muted loop>
+                    <source src="/images/night_city.mp4">
+                        This browser isn't supported!
+                </video>
+            </div>
+                
+                
+            <div class="heading-secondary">
+                <h1>Cyberpunk History</h1>
+            </div>
+            <div class="row">
+                <div class="story">
+                    <figure class="story__shape">
+                        <img src="/images/story_01.jpg" alt="Tokyo landscape" class="story__img">
+                    </figure>
+                    <div class="story__text">
+                        <h3 class="heading-tertiary margin-bottom-small">Japanese economic growth</h3>
+                        <p class="paragraph">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor unde quod ea eius voluptates commodi deserunt nihil consectetur! Veritatis enim cupiditate laboriosam quod nobis assumenda voluptatibus reiciendis ipsa tenetur deserunt?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor unde quod ea eius voluptates commodi deserunt nihil consectetur! Veritatis enim cupiditate laboriosam quod nobis assumenda voluptatibus reiciendis ipsa tenetur deserunt?
+                            orem ipsum dolor sit amet consectetur adipisicing elit. Dolor unde quod ea eius voluptates commodi deserunt nihil consectetur! Veritatis enim cupiditate
+                            
+                        </p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="row">
+                <div class="story">
+                    <figure class="story__shape">
+                        <img src="/images/story_02.jpg" alt="Tokyo landscape" class="story__img">
+                    </figure>
+                    <div class="story__text">
+                        <h3 class="heading-tertiary margin-bottom-small">Japanese products in America</h3>
+                        <p class="paragraph">
+                            Sony's TR-63 radio "cracked open the U.S. 
+                            market and launched the new industry of consumer microelectronics."
+                             By the mid-1950s, American teens had begun buying portable transistor radios in huge numbers, 
+                             helping to propel the fledgling industry from an estimated 100,000 units in 1955 to 5 million units by the end of 1968.
+                             <span class="hidden">
+                                By the mid-1950s, American teens had begun buying portable transistor radios in huge numbers, 
+                                helping to propel the fledgling industry from an estimated 100,000 units in 1955 to 5 million units by the end of 1968.
+                             </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="row">
+                <div class="story">
+                    <figure class="story__shape">
+                        <img src="/images/story_03.jpg" alt="Tokyo landscape" class="story__img">
+                    </figure>
+                    <div class="story__text">
+                        <h3 class="heading-tertiary margin-bottom-small">Gloomy Future in California</h3>
+                        <p class="paragraph">
+                            city is dark and dreary, beset by permanent darkness and drizzling rain, 
+                            hinting at a history of environmental calamities. Animals are mostly artificial, 
+                            symbols of a natural world that has been lost to industrial blight, and healthy humans 
+                            have decamped from the planet to unseen off-world colonies staffed by plentiful robot labor, 
+                            hoping to start over. Those who remain on Earth are sickly, depressed, and desperate.
+                            <span class="hidden">
+                                have decamped from the planet to unseen off-world colonies staffed by plentiful robot labor, 
+                                hoping to start over. Those who remain on Earth are sickly, depressed, and desperate.
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+    
+        </section>
+    </div>
+    
 </body>
 </html>

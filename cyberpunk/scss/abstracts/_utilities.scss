@@ -1,5 +1,10 @@
+// MARGIN
+.margin-bottom-small { margin-bottom: 4rem; }
 .margin-bottom-big { margin-bottom: 8rem; }
 
-.text-dark {
-    color: $color-dark-secondary;
-}
+// TEXT
+.text-dark { color: $color-dark-secondary; }
+.hidden { visibility: hidden; }
+
+// COLOR
+$color-grey-light-1: #888;

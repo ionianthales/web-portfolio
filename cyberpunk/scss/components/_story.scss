@@ -1,0 +1,46 @@
+.story {
+    width: 75%;
+    margin: 0 auto;
+    box-shadow: 0 3rem 20rem rgba(orange, .7);
+    background-color: rgba(orange, .8);
+    color: white;
+    padding: 4rem;
+    padding-left: 9rem;
+    font-size: 16px;
+    position: relative;
+    transform: skewX(-12deg);
+    margin-bottom: 6rem;
+    transition: all .2s;
+
+    & > * {
+        transform: skewX(12deg);
+    }
+
+    &__shape {
+        // border: 1px red solid;
+        // position: absolute;
+        width: 15rem;
+        height: 15rem;
+        float: left;
+        background-color: white;
+        shape-outside: circle(40% at 50% 50%);
+        clip-path: circle(50% at 50% 50%);
+        transform: translateX(-3rem) skewX(12deg);
+        opacity: .8;
+    }
+
+    &__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .heading-tertiary {
+        // border: 1px red solid;
+        color: rgba(black, .6);
+    }
+
+    &:hover {
+        background-color: rgb(255, 136, 0);
+    }
+}
