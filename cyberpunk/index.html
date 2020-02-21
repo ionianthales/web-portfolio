@@ -8,6 +8,25 @@
     <link rel="stylesheet" href="scss/main.css">
 </head>
 <body>
+
+    <nav class="navigation">
+        <input type="checkbox" class="navigation__checkbox" id="nav-toggle">
+        <label for="nav-toggle" class="navigation__button">
+            <span class="navigation__icon"></span>
+        </label>
+        <div class="navigation__background"></div>
+
+        <div class="navigation__nav">
+            <ul class="navigation__list">
+                <li class="navigation__item"><a href="#section-about" class="navigation__link"><span>01 </span>About cyberpunk</a></li>
+                <li class="navigation__item"><a href="#section-feature" class="navigation__link"><span>02 </span>blade runner</a></li>
+                <li class="navigation__item"><a href="#section-tour" class="navigation__link"><span>03 </span>off world</a></li>
+                <li class="navigation__item"><a href="#section-stories" class="navigation__link"><span>04 </span>cyberpunk histoy</a></li>
+                <!-- <li class="navigation__item"><a href="" class="navigation__link"><span>05 </span></a></li> -->
+            </ul>
+        </div>
+    </nav>
+
     <div class="header__container">
         <div class="header" id="header">
             <div class="header__text-box">
@@ -21,7 +40,7 @@
     </div>
 
     <main>
-        <section class="section-about">
+        <section class="section-about" id="section-about">
             <div class="heading-secondary">
                 <h1>
                     About Cyberpunk
@@ -67,7 +86,7 @@
             </div>
         </section>
 
-        <div class="section-feature__container">
+        <div class="section-feature__container" id="section-feature">
             <section class="section-feature">
                 <div class="heading-secondary">
                     <h1>
@@ -183,7 +202,7 @@
             </div>
         </section>
 
-        <div class="section-stories__container">
+        <div class="section-stories__container" id="section-stories">
             <section class="section-stories">
                 <div class="bg-video">
                     <video class="bg-video__content" autoplay muted loop>
